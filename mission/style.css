@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    border: 1px solid black;
+    padding: 100px;
+    padding-bottom: 30px;
+    
+}
+.title {
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: .2em;
+}
+h2 {
+    color: #006EB6;
+    font-size: medium;
+    line-height: 1px;
+    letter-spacing: .1em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    
+}
+
+main {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+p {
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.themission {
+    text-align: left;
+    line-height: 1.75;
+}
+.logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+}
