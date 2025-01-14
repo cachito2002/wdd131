@@ -8,7 +8,8 @@ body {
     border: 1px solid black;
     padding: 100px;
     padding-bottom: 30px;
-    
+    background-color: white;
+    color: black;
 }
 .title {
     font-weight: 200;
@@ -47,5 +48,9 @@ p {
 }
 
 .dark {
-    
+    background-color: #333;
+    color: white;
+}
+.dark img {
+    content: url('byui-logo_white.png');
 }
