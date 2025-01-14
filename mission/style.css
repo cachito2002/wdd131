@@ -51,6 +51,7 @@ p {
     background-color: #333;
     color: white;
 }
-.dark img {
-    content: url('byui-logo_white.png');
+
+.dark h2 {
+    color: #5186a8
 }
