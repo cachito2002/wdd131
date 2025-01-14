@@ -4,10 +4,10 @@ function changeTheme() {
 // check to see what the current value of our select is.
 if (themeSelector.value == "dark") {
     document.body.classList.add('dark');
-    logo.src = 'images/byui-logo_white.png';
+    logo.src = 'images/white.png';
 } else {
     document.body.classList.remove('dark');
-    logo.src = 'images/byui-logo_blue.webp';
+    logo.src = 'images/blue.webp';
 }
 // The current value is conveniently found in themeSelector.value!
 
