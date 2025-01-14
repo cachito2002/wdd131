@@ -1,13 +1,13 @@
 const themeSelector = document.querySelector("#theme-selector");
-const logo = document.getElementById('logo');// replace with code to select dropdown element out of the HTML (Hint: document.querySelector);
+const logo = document.querySelector('.logo');// replace with code to select dropdown element out of the HTML (Hint: document.querySelector);
 function changeTheme() {
 // check to see what the current value of our select is.
 if (themeSelector.value == "dark") {
     document.body.classList.add('dark');
-    logo.src = 'byui-logo_white.png'
+    logo.src = 'images/byui-logo_white.png';
 } else {
     document.body.classList.remove('dark');
-    logo.src = 'byui-logo_blue.webp';
+    logo.src = 'images/byui-logo_blue.webp';
 }
 // The current value is conveniently found in themeSelector.value!
 
