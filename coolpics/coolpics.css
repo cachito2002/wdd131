@@ -14,12 +14,24 @@
     font-size: 1.2em;
     display: grid;
     grid-template-columns: 1fr;
+    margin: 0 auto;
  }
  header, footer {
     background-color: plum;
     text-align: center;
+    padding: 0%;
  }
-
+ h1 {
+    text-align: center;
+ }
+.cool {
+    min-width: 200px;
+}
+ .navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+ }
  main {
     background-color: lightgrey;
     text-align: center;
@@ -34,7 +46,7 @@
  }
  a:link,
  a:visited {
-    color: var(--primary-color)
+    color: var(--primary-color);
  }
  button {
     font-size:  1.2em;
@@ -42,19 +54,29 @@
     background: none;
  }
 
- @media screen and (min-width: 700px) {
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-  }
+@media screen and (min-width: 700px) {
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+button {
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+a {
+    display: none;
+}
+}
 
 @media screen and (min-width: 1000px) {
 .gallery {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 button{
     display: none;
 }
+a {
+    display: contents;
+}
+
 }
