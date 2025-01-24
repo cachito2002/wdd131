@@ -10,73 +10,90 @@
  }
 
  body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.2em;
+   display: grid;
+   margin: 0 auto;
  }
- header, footer {
-    background-color: plum;
-    text-align: center;
-    padding: 0%;
- }
- h1 {
-    text-align: center;
- }
-.cool {
-    min-width: 200px;
+ header {
+   background-color: plum;
+   text-align: center;
+   padding: 0%;
 }
- .navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+.cool{
+   font-size: 3em;
+}
+h1 {
+   text-align: center;
+   font-size: 1.2em;
+ }
+
+.navbar ul {
+   list-style-type: none;
+   padding: 0px;
+   padding-bottom: 20px;
+   text-decoration: underline;
+   margin: 0px;
  }
  main {
-    background-color: lightgrey;
-    text-align: center;
+   background-color: lightgrey;
+   text-align: center;
+ }
+ .gallery {
+   display: grid;
+   grid-template-columns: 1fr;
  }
  img {
-    max-width: 100%;
-    object-fit: cover;
-    height: 250px;
-    width: 250px;
-    border: 10px solid white;
-    box-shadow: 7px 7px;
+   max-width: 100%;
+   object-fit: cover;
+   height: 250px;
+   width: 250px;
+   border: 10px solid white;
+   box-shadow: 7px 7px;
  }
  a:link,
  a:visited {
-    color: var(--primary-color);
- }
+   color: var(--primary-color);
+}
  button {
-    font-size:  1.2em;
-    border: none;
-    background: none;
- }
+   font-size:  1.2em;
+   border: none;
+   background: none;
+}
+ footer {
+   background-color: plum;
+   padding-left: 300px;
+}
 
 @media screen and (min-width: 700px) {
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-button {
-    font-size: 1.3em;
-    padding-bottom: 10px;
-}
-a {
-    display: none;
-}
+   .gallery {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+   a {
+      display: none;
+   }
+
 }
 
 @media screen and (min-width: 1000px) {
 .gallery {
-    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
 }
 button{
-    display: none;
+   display: none;
 }
 a {
-    display: contents;
+   display: contents; 
 }
 
+ul {
+   display: flex;
+   justify-content: center;
+}
+ul li {
+   margin-right: 60px;
+   margin-left: 60px;
+}
 }
