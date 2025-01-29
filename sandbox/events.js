@@ -12,13 +12,13 @@ function renderTasks(tasks) {
             
 
         li.innerHTML = `
-            // <li ${task.completed ? 'class="strike"' : ""}>
+            <li ${task.completed ? 'class="strike"' : ""}>
             <p ${task.completed ? 'class="strike"' : ""}>${task.detail}</p>
             <div>
                 <span data-action="delete">❎</span>
                 <span data-action="complete">✅</span>
             </div>
-            // </li>
+            </li>
             `;
 
             const deleteButton = li.querySelector('[data-action="delete"]');
