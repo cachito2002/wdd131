@@ -13,7 +13,7 @@ function renderTasks(tasks) {
 
         li.innerHTML = `
             <li ${task.completed ? 'class="strike"' : ""}>
-            <p ${task.completed ? 'class="strike"' : ""}>${task.detail}</p>
+            <p>${task.detail}</p>
             <div>
                 <span data-action="delete">❎</span>
                 <span data-action="complete">✅</span>
@@ -68,7 +68,7 @@ function removeTask(taskElement) {
 function completeTask(taskElement) {
   // In this case we need to find the index of the task so we can modify it.
   const taskIndex = tasks.findIndex(
-    (task) => task.detail === taskElement.childNodes[0].innerText
+    (task) => task.detail === taskElement.querySelector('p').inner
   );
   // once we have the index we can modify the complete field.
   // tasks[taskIndex].completed ? false : true is a ternary expression.
