@@ -12,13 +12,13 @@ function renderTasks(tasks) {
             
 
         li.innerHTML = `
-            <li ${task.completed ? 'class="strike"' : ""}>
-            <p>${task.detail}</p>
+            // <li ${task.completed ? 'class="strike"' : ""}>
+            <p ${task.completed ? 'class="strike"' : ""}>${task.detail}</p>
             <div>
                 <span data-action="delete">❎</span>
                 <span data-action="complete">✅</span>
             </div>
-            </li>
+            // </li>
             `;
 
             const deleteButton = li.querySelector('[data-action="delete"]');
@@ -91,6 +91,5 @@ function manageTasks(event) {
 
 document.getElementById('submitTask').addEventListener('click', newTask);
 
-document.getElementById
 // Add your event listeners here
 // We need to attach listeners to the submit button and the list. Listen for a click, call the 'newTask' function on submit and call the 'manageTasks' function if either of the icons are clicked in the list of tasks.
