@@ -111,9 +111,6 @@ img {
       display: grid;
       grid-template-columns: 1fr 1fr;
    }
-   a {
-      display: none;
-   }
    .close-viewer {
       top: 20px;
       right: 20px;

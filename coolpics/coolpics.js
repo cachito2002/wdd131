@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menubutton = document.querySelector("#menubutton");
-    if (menubutton) {
-        menubutton.addEventListener("click", function() {
-            menu.classList.toggle("navhide");
-        });
-    }
     const menu = document.querySelector("#menu");
 
     menubutton.addEventListener("click", function() {
