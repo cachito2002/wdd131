@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Photography Page</title>
-    <link rel="stylesheet" href="coolpics.css">
-    <script src="coolpics.js"></script>
-    
+    <link rel="stylesheet" href="coolpics.css"> 
 </head>
     <body>
+        <div class="viewer">
+            <button class="close-viewer">X</button>
+            <img src="images/norris-full.jpeg" alt="bigger picture">
+        </div>
         <header>
             <h1 class="cool">Cool Pics📷</h1>
-            <nav class="navbar">
+            <button id="menubutton" type="button">Menu</button>
+            <nav id="menu" class="navhide">
                 <ul>
-                    <button type="button">Menu</button>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">People</a></li>
                     <li><a href="#">Places</a></li>
@@ -58,6 +60,7 @@
             </main> 
         <footer>
             <p>©2023 Not a real site 😀</p>
-        </footer>  
+        </footer>
+        <script src="coolpics.js"></script>  
     </body>
 </html>
