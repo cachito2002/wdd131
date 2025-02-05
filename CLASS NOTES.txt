@@ -1,0 +1,117 @@
+----------------------------------------------------UNIT 3 NOTES-------------------------------------------------
+Key Words:
+<link> == takes you to a different page
+<button> == performs a function
+CONTRAST: [with large text or adjacent visual elements it should be a 3:1] (contrast checker == 	https://webaim.org/resources/contrastchecker/)
+
+TYPEFACES: they should be simple, not complex. Easily read and not misunderstood
+---make sure the typefaces align, to not have multiple typefaces; that can confuse
+---spacing
+---line length and the size of the font (crucial so it can be read)
+---Real text is modifiable which Text within Graphics isn't [it can be more blocky and messy, and it cant be adjusted]
+---Embedded fonts are fonts inside a file document :)
+
+CONVEY INFO:
+!!! Do not rely on color to indicate and provide info !!!
+-Underline text (demonstrates a link)
+-Add more info to the color: to distinguish info
+-Create a chart
+-Make the text bold
+HERE IS A LINK THAT HELP DESCRIBE IMAGES: -->  https://poet.diagramcenter.org/  <--
+
+
+INSTRUCTIONS FOR GRAYSCALE:
+Mac Instructions 
+-Open settings
+-Accessibility
+-Display
+-Scroll to "Color Filters"
+-Toggle on color filters and make sure the filter type is "Grayscale"
+
+Windows Instructions 
+-Windows button
+-Settings
+-Accessibility
+-Color Filters
+-Toggle Grayscale
+
+
+WEB ACCESSIBILITY:
+-This ensure that the website can be used by people with disabilities, such as blindness, motor, auditory and many more. This includes screen readers, text and content that is easy to ready and understand.
+
+Semantic: It provides an easier way to user the interface, using the elements as they need to be used. A simple example, instead of decorating a "p" to look like a Heading, just use H1
+
+Keyboard Accessibility: doing this will make the website easier to manage and go through. Allows the user to get used to the site. Make it easy is the name of the game.
+
+Screen Reader [INSTRUCTIONS]:
+Mac Instructions 
+-Open settings
+-Accessibility
+-Voice Over
+-Toggle on
+
+Windows Instructions
+-Open settings
+-Accessibility
+-Narrator
+-Toggle on
+			
+
+
+HOW TO DO THIS:
+1)Semantic HTML
+2)Provide text ALT (info about an image)
+3)Ensure Keyboard Accessibility
+4)Avoid using colors that have no meaning, adjust text to be readable and to be understood.
+5)Use ARIA
+--> This means that it means
+------role = what it is (for example: button, they will see that this is a button)
+------aria-expanded, aria-live = this explains what is happening
+6)Assistive Tech: screen readers, keyboard navigation, and navigational tools
+
+
+
+HOW TO TEST IF ITS ACCESSIBLE:
+1) Automated Testing tools: WAVE, LIGHTHOUSE, axe DEVTOOLS, WebAIM Contrast Checker
+2) Screen Reader: NVDA, VoiceOver, JAWS
+3) Keyboard Navigation: being able to use [Tab], [Shift + Tab], [Enter], [Arrow Keys] (being able to reach all of the buttons with tabs, keys on a keyboard.)
+4) Check ARIA and Semantic HTML: Inspect Element to see if everything is structed right and labeled
+5) Simulate Different Disabilities: [No Coffee Chrome Extension = this simulates visual impairment.] [Colorblindness Simulators = to see how color looks for color blinded people] 
+
+
+HOW ARE THESE APPLIED TO WEB?
+1) Semantic HTML (BEST PRACTICE)
+---this is how it is structured, use <nav> instead of a <div> for the navigation bar
+2) Adding ARIA for Dynamic Content
+---when HTML isn't enough we use this to show the user what each button, nav and menu does. It is a better explanation for the user. For example role = button would show the user what it actually is.
+3) Ensuring Keyboard Accessibility
+---people that cant use a mouse could navigate around with the following: [Tab], [Shift + Tab], [Enter], [Arrow Keys]
+4) Improving Visual Accessibility
+---This will help with color contrast to make it more visible. Especially for those that have low vision.
+5) Providing Text Alt
+---it provides a description of video and picture to ensure the user knows what its about.
+6) Testing Accessibility
+---Using the following programs to ensure it works: WAVE, NVDA
+
+
+GRAPHIC DESIGN IN WEB!!!!
+Fundamentals of Graphic Design
+1) Balance: Symmetrical, Asymmetrical, Radial
+2) Contrast High [gets your attention] and Low [looks a little bit more calm] Contrast
+3) Focal Point: It is uses boldness, focus to have it be the main point
+4) Alignment: creates organization, order
+5) Repetition: something that is used over and over to create UNITY
+6) Proximity: How close or far away something is. If they are related then its close.
+7) White Space: Its the space not being used, adding focus to the design or object
+8) Movement: It controls the eyes of the viewer, you tell them where to go
+9) Unity and Harmony: how well they work together to deliver a message. Professional look
+
+[EXAMPLES OF THIS IN WEB]
+STEP 1: Identify the Purpose = who is it for? who is the audience? what is it trying to do?
+STEP 2: Do Research = explore other brands, other companies to get a feel of whats the norm. Find themes, typography uses, images, colors etc.
+STEP 3: Sketching and Wireframing = Identify where everything is going to go. How it will look, the button placements, the home, about and other pages layouts. Placements of paragraphs and images.
+STEP 4: Design the UI = this is NOT CODING, this is drawing with pro sites, Adobe XD, Figma and other sites
+STEP 5: Develop the Website = Write the HTML, CSS and JavaScript, begin to open the page in an ONLINE VIEWER, see how it looks, have it match or look like the mockup in the rough draft.
+STEP 6: Test Accessibility and Usability: see of it works, using WAVE, Lighthouse and other programs meant to make the website more usable and friendlier for any user.
+STEP 7: Launch and Maintain = you can use GITHUB to publish it and have it known to the public. Keeping it updated so it stays modern with the up to date tech and standards!!
+
