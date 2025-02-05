@@ -6,3 +6,8 @@
     --primary-font: 'Helvetica','Alumni Sans Pinstripe';
     --secondary-font:  'Funnel Sans', sans-serif;
 }
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
