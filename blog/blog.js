@@ -1,3 +1,6 @@
+
+
+
 const articles = [
 	{
 		id: 1,
@@ -25,3 +28,4 @@ const articles = [
 		stars: '⭐⭐⭐⭐'
 	}
 ]
+
