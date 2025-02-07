@@ -87,3 +87,11 @@ ul > li {
     grid-column: 3/4;
     justify-content: center;
 }
+.skiptocontent a {
+    position: absolute;
+    top: -40px;
+}
+.skiptocontent a:focus {
+    background: none;
+    top:0;
+}
