@@ -1,0 +1,83 @@
+DESIGN WEB NOTES!
+WHAT IT INCLUDES:
+-Instructions
+-Code Examples and what it means
+-Writing Code without GitHub
+
+
+
+
+
+
+NOTES!!!
+Goals: Deliver a message using the principles of Design, Typography, Color, Contrast, 
+	Layout and Composition (as read and reviewed in previous projects.
+
+
+
+											    TYPOGRAPHY 
+										is the style or appearance of text
+
+--Common types of fonts: 
+-Serif [little strokes called serifs]
+-San Serif [doesn't have the small strokes]
+-Display Fonts [because they are decorative they are used for more design purposes, not paragraphs]
+
+Fonts that will fit the message is very important
+-Use one or two fonts no more than that
+-OPPOSITES ATTRACT: thin and bold, short and tall, classy and simple
+
+HIERARCHY: tells the reader where to go, from start to finish
+-to make this work, make the text you want people to focus on stand out
+
+LEADING: space between lines of text
+
+TRACKING: character spacing; for example T R A C K I N G
+
+KERNING: space between the letters them self instead of the whole text
+
+
+												COLOR
+											Color Theory is used
+NOTES!!!
+THE BASICS: Primary and Secondary Color
+
+HUE: its another word for color
+
+SATURATION: intensity of the color, more subtle or vibrant
+
+VALUE: this is how dark or how light the color is
+
+MONOCHROMATIC: Variation of the same color
+
+ANALOGOUS: colors that are beside each other, that work together
+
+COMPLEMENTARY: colors that are across from each other
+
+SPLIT COMPLEMENTARY: uses the colors that are on the side of the original complementary colors. For example red orange and red violet with green
+
+TRIADIC: uses three colors that are evenly spaced
+
+TETRADIC: for a rectangle on the color wheel, it is used for one color to standout and the other ones to be accents
+
+DO's AND DONT'S
+READABILITY: making the text and design readable, not using to much color, but using the right ones that send the message that is desired
+EXPERIMENTING will bring great IDEAS!!!! LOOK AT OTHER PEOPLES WORK!!
+
+
+											LAYOUT & COMPOSITION
+								Composition isn't just working with text, think like a designer
+NOTES!!!!
+
+1) PROXIMITY: using visual space to show relationship in a design, related and similar designs should be grouped together
+2) WHITE SPACE: spaces that are between content, letting your design breathe.
+3) ALIGNMENT: aligning text, object and pics so they are all in unison. Inconsistent alignment can cause disorder and confusion in the reader.
+4) CONTRAST: one item is different from another. Catch the readers eye, provide emphasis, or have them focus on something specific.
+---> use can do this with color, text, boldness
+---> Goes along with Hierarchy, guiding the viewer where to go. The designer will guide their eyes
+5) REPETITION: repeat the same elements, colors, text used for the whole project.
+
+GETTING THIS DOWN WILL MAKE DESIGNS LOOK PROFESSIONAL, CLEAN AND UNDERSTANDABLE.
+5)
+
+

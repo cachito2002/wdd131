@@ -2,7 +2,7 @@
 Key Words:
 <link> == takes you to a different page
 <button> == performs a function
-CONTRAST: [with large text or adjacent visual elements it should be a 3:1] (contrast checker == 	https://webaim.org/resources/contrastchecker/)
+CONTRAST: [with large text or adjacent visual elements it should be a 3:1] (contrast checker == https://webaim.org/resources/contrastchecker/)
 
 TYPEFACES: they should be simple, not complex. Easily read and not misunderstood
 ---make sure the typefaces align, to not have multiple typefaces; that can confuse
