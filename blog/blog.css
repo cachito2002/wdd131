@@ -27,7 +27,7 @@ nav {
     justify-items: end;
     justify-content: end;
     padding: 0;
-    padding-right: 100px;
+    padding-right: 180px;
 }
 .main-nav li {
     padding: 10px
@@ -42,50 +42,63 @@ ul > li {
     margin: 0 auto; 
     max-width: 200px;
 }
-.entireblog {
-    display:grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr;
-}
-/*this is where the ratings, info, and date will go */
-.info {
+#js-article-container{
     display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+.review {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap:20px;
+}
+
+aside {
     grid-column: 1/2;
     grid-row: 1/2;
-    justify-content: left;
-    max-width: 300px;
-    padding-bottom: 200px;
+    text-align: right;
+    padding-right: 15px;
 }
-.info2 {
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 1/2;
-    justify-content: left;
-    max-width: 300px;
-    padding-bottom: 300px;
-}
-/* this is where the image and details will go */
-.books {
-    display: grid;
-    grid-row: 1/2;
+
+article {
+    padding-left: 15px;
     grid-column: 2/3;
-    justify-content: center;
+    padding-right: 100px;
+    border-left: 1px solid gold;
     justify-items: center;
-    
+    width: 100%;
 }
-.books2 {
-    display: grid;
-    grid-row: 2/3;
-    grid-column: 2/3;
-    justify-content: center;
-    justify-items: center;
-    
+
+article h2 {
+    text-align: left;
+    font-size: 1.5em;
+    color: maroon;
+    width: 100%;
 }
-/* this is where the filters will go */
-.filters {
-    display: grid;
-    grid-row: 1/2;
+article img {
+    width: 100%;
+}
+
+#container{
     grid-column: 3/4;
     justify-content: center;
+    border: 1px solid gold;
+    max-width: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#filters label {
+    margin-top: 5px;
+    font-weight: bold;
+}
+.sort {
+    width: 100px;
+    padding:5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-self: center;
 }
 .skiptocontent a {
     position: absolute;
