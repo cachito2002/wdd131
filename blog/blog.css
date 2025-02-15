@@ -18,6 +18,11 @@ header > h1 {
 nav {
     padding: 10px 0;
 }
+main {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-template-areas: "reviews filters";
+}
 .main-nav {
     display: grid;
     grid-template-columns: max-content max-content max-content;
@@ -42,14 +47,15 @@ ul > li {
     margin: 0 auto; 
     max-width: 200px;
 }
-#js-article-container{
+.reviews{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr 1fr;
     gap: 40px;
+    grid-area: reviews;
 }
 .review {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr;
     gap:20px;
 }
 
@@ -87,6 +93,7 @@ article img {
     max-width: 250px;
     padding: 15px;
     margin: 20px;
+    grid-area: filters;
 }
 
 #filters-placeholder{

@@ -56,7 +56,6 @@ const template = (article) => {
                     <img src="${article.imgSrc}" alt="${article.imgAlt}">
                     <p>${article.description}</p>
 				</article>
-				<div id="container">Filters go here</div>
 				</section>
 	`;
 };
