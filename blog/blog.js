@@ -56,9 +56,30 @@ const template = (article) => {
                     <img src="${article.imgSrc}" alt="${article.imgAlt}">
                     <p>${article.description}</p>
 				</article>
-            </section>
+				</section>
+				<div id="container"></div>
 	`;
 };
 
+
+const createLayout = () => {
+	return `
+	<div class="layout-wrapper">
+		<div class="articles-section">
+			${articles.map(template).join('')}
+		</div>
+		<div id="container">
+		</div>
+	`;
+};
+
+
 const articlesConatiner = document.getElementById('js-article-container');
 articlesConatiner.innerHTML = articles.map(template).join('');
+
+
+
+
+
+
+

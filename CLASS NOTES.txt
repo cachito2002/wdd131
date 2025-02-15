@@ -115,3 +115,104 @@ STEP 5: Develop the Website = Write the HTML, CSS and JavaScript, begin to open 
 STEP 6: Test Accessibility and Usability: see of it works, using WAVE, Lighthouse and other programs meant to make the website more usable and friendlier for any user.
 STEP 7: Launch and Maintain = you can use GITHUB to publish it and have it known to the public. Keeping it updated so it stays modern with the up to date tech and standards!!
 
+
+
+
+
+CALL BACK FUNCTIONS:
+1) It is used with Asynchronous Operations; setTimeout(), fetch()
+---->these are tasks that take time to process. 
+2) It is used with an Event Handling: for example addEventListener()
+3) To be able to use the code over and over
+
+
+
+WHEN TO USE THEM:
+-Asynchronous operations, Event Handling, Iterating Over Data, Customization of Data {how the data should be fetched and received}
+-Don't use code if its Synchronous Operations (if it doesn't need to wait on anything)
+
+WHY ARE THERE ARRAY METHODS?
+1) Simplifies Code (makes code easier, more easier than loops)
+2) Improves Performance (makes the code become optimized internally)
+3) Encourages Functional Programming: methods are used such as .map(), .filter(), .reduce()
+
+
+map()---> [Transform each element]
+const numbers = [1, 2, 3, 4, 5];
+const squared = numbers.map(num => num ** 2);
+console.log(squared); // [1, 4, 9, 16, 25]
+
+filter()---> [Selects Certain Elements]
+const ages = [15, 22, 30, 18, 12];
+const adults = ages.filter(age => age >= 18);
+console.log(adults); // [22, 30, 18]
+
+reduce()---> [Compute a Single Value]
+const prices = [10, 20, 30, 40];
+const total = prices.reduce((sum, price) => sum + price, 0);
+console.log(total); // 100
+
+forEach()---> [Loop through each Element]
+const fruits = ['apple', 'banana', 'cherry'];
+fruits.forEach(fruit => console.log(fruit.toUpperCase()));
+// Output: APPLE, BANANA, CHERRY
+
+find()---> [Find the First Matching Element]
+const numbers = [3, 7, 12, 5, 10];
+const firstEven = numbers.find(num => num % 2 === 0);
+console.log(firstEven); // 12
+
+some()---> [Check if at least one matches]
+const numbers = [3, 7, 9, 11];
+const hasEven = numbers.some(num => num % 2 === 0);
+console.log(hasEven); // false
+
+every()---> [checks if they all match]
+const scores = [90, 85, 88, 92];
+const allPassed = scores.every(score => score >= 50);
+console.log(allPassed); // true
+
+sort()---> [sort an Array]
+const numbers = [5, 2, 8, 1, 3];
+numbers.sort((a, b) => a - b); // Ascending order
+console.log(numbers); // [1, 2, 3, 5, 8]
+
+reverse()---> [Reverse an Array]
+const letters = ['a', 'b', 'c', 'd'];
+letters.reverse();
+console.log(letters); // ['d', 'c', 'b', 'a']
+
+includes()---> [Checks if a Value Exists]
+const colors = ['red', 'blue', 'green'];
+console.log(colors.includes('blue')); // true
+console.log(colors.includes('yellow')); // false
+
+
+CHATGPT SPIT THIS OUT, SAME THING AS ABOVE BUT MUCH SIMPLIER:
+// .map() = "Transforms each element in the array and returns a new array."
+const result = array.map(element => /* transformation */);
+
+// .filter() = "Filters elements based on a condition and returns a new array."
+const result = array.filter(element => /* condition */);
+
+// .forEach() = "Executes a function on each element in the array, but doesn't return a new array."
+array.forEach(element => /* action */);
+
+// .reduce() = "Reduces the array to a single value (e.g., sum, concatenation)."
+const result = array.reduce((accumulator, element) => /* operation */, initialValue);
+
+// .some() = "Checks if at least one element matches the condition. Returns true or false."
+const result = array.some(element => /* condition */);
+
+// .every() = "Checks if every element matches the condition. Returns true or false."
+const result = array.every(element => /* condition */);
+
+// .find() = "Finds the first element that matches the condition and returns it."
+const result = array.find(element => /* condition */);
+
+
+
+
+
+
+

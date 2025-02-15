@@ -79,19 +79,25 @@ article img {
     width: 100%;
 }
 
-#container{
+#container {
     grid-column: 3/4;
     justify-content: center;
     border: 1px solid gold;
+    box-sizing: 1px solid gold;
     max-width: 250px;
     padding: 15px;
-    box-sizing: border-box;
+    margin: 20px;
 }
 
-#filters label {
-    margin-top: 5px;
-    font-weight: bold;
+#filters-placeholder{
+    font-size: 0.9em;
+    text-align: left;
 }
+
+#filters {
+    display: none;
+}
+
 .sort {
     width: 100px;
     padding:5px;
