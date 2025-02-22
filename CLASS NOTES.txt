@@ -211,6 +211,75 @@ const result = array.every(element => /* condition */);
 const result = array.find(element => /* condition */);
 
 
+FORMS:
+
+HOW DO THEY WORK?
+-HTML form elements = it uses the following; <input>, <textarea>..
+-User Input and Submission = when a user clicks a button or fills out a field then it will store or respond 
+-Validation and Processing = make sure that the user typed or clicked on the right thing
+
+WHAT ARE SOME PROBLEMS TO LOOK OUT FOR?
+-Poor Accessibility = not grouping certain features, or missing labels
+-Lack of Proper Validation = relying on a client side validation
+-Bad User Experience = It doesn't work as well and form resets
+-Security Issues = not using HTML when collecting data
+
+HOW SHOULD I STYLE FORMS IN CSS?
+Styling Input Fields : making it clear and nice. Adding padding and border-radius for a cleaner look.
+Styling Labels & Forms layout : display block and other forms for the form to placed
+Styling Buttons : making buttons stylish and very interactable
+Custom Checkboxes and Radio Buttons : hide checkboxes and use the :: before element for styling
+
+DIFFERENCE BETWEEN type, id, and name?
+type = this identifies the behavior of certain element
+id = it is how an element is classified, the id cant be repeated because it is singular use.
+name = if they have the same name, then the computer groups them and send the info grouped together.
+
+FORM ACCESSIBILITY
+1) Labels and Instructions : using labels can help readers identify what the form is doing
+2) Grouping Related Inputs : grouping info together, using <fieldset> and <legend> to do the grouping
+3) Keyboard Navigation : being able to have the TAB on the keyboard be usable
+4) Error Messages and Validation : using error messages when the user is inputting invalid info. (Nice and polite info)
+5) Sufficient Contrast and Clickable : making sure that the buttons or the features that are meant to be click are working.
+
+FAVICON
+
+WHAT IS IT? 
+1) It is the image at the top of the website, in the tabs, that identifies your website
+
+HOW DO I ADD ONE?
+1) Create a 16x16px image with the .ico, .png, .svg format
+favicon.io also helps in creating this.
+2) Add it to your website; in the head section with the <link>
+3) Place is in the Root Directory
+4) Test it
+
+WHAT IS THE MOST COMMON SIZE?
+1) Best practice and most common ones are the 16x16, 32x32, 48x48px
+
+DIFFERENCE APPLE TOUCH AND FAVICON?
+FAVICON = it is used for browser tabs, bookmarks and search results
+-Typically 16x16px or 32x32px
+-Saved as favicon.ico or a .png file
+
+APPLE TOUCH ICON 
+-used when users save a website to their home screen
+-very high resolution
+-stored as a PNG
+-it is added in the head like; <link rel = "apple-touch-icon" href="apple-touch-icon.png">
+-FAVICON is for smaller browser tabs and mobile screens (IOS)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
