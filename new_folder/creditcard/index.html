@@ -52,14 +52,16 @@
             </div>
         </div>
         <div id="cardback">
+            <div id="card-strip"></div>
             <label for="cvc">CVC/CVV</label>
-            <input 
-                type="password"
-                name="cvc"
-                id="cvc"
-                placeholder="123"
-                pattern="[0-9]{3}"
-                required>
+            <div class=cvc_number>
+                <input 
+                    type="password"
+                    name="cvc"
+                    id="cvc"
+                    placeholder="123"
+                    required>
+            </div>
         </div> 
         <button>Submit</button>
     </form>
