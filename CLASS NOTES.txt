@@ -270,6 +270,87 @@ APPLE TOUCH ICON
 -FAVICON is for smaller browser tabs and mobile screens (IOS)
 
 
+OBJECTS IN JAVASCRIPT
+- You can use them to store data
+- Makes the code a bit more organized
+- Dynamic Behaviors can be enabled
+- I can support real-world modeling
+- (OOP) this is a way a code can be structured which contains the following:
+---> Encapsulation
+---> Abstraction
+---> Inheritance
+---> Polymorphism
+
+CREATE AN OBJECT:
+1. Object Literal: is used for just simple objects with a few properties
+---(small simple object, cant be used for multiple objects)
+
+2. new Object() container
+---(does the same thing as the object literal)
+
+3. Function: (function Person(name, age)) [this is used when there are multiple objects of the same type
+---(this is used to create multiple objects, reusable)
+
+4. class (ES6+): it is a more simpler way to organize objects
+---(large applications, supports inheritance, it is not used with beginners)
+
+HOW DO I ACCESS THE PROPERTIES:
+1. DOT NOTATION = person.name
+		  person.age
+(You can use it with nested objects)
+
+2. BRACKET NOTATION = this works with special characters
+		   console.log(person["full name"]);
+		   this gets the variables from the other class
+		   which is in the const person
+(You can use it with nested objects)
+
+3. Checking if a Property Exists:
+		   .hasOwnProperty("name")); -- this is to see if a 			   property is actually there
+
+USING ES MODLES:
+-Much more simpler to debug
+-Having separate files will allow you run the code a lot simpler
+
+If you have two separate file that do two separate things, then you can figure out what is going on with what code; because if one doesn't work, then it can be easily targeted.
+
+For example:
+math.js
+export const PI = 3.14159
+export function add(a,b) {
+	return a + b;
+}
+
+greet.js
+export default function greet(name) {
+	return `Hello, ${name}!`;
+} 
+
+Both of these scripts will allow you to run it in the code, each has its own function and their own thing. Doing this will allow for easier access to what they do most.
+
+ES MODLES HELP ORGANIZE CODE IN JAVASCRIPT:
+1. Separating Concerns
+2. Avoids Global Scope Pollution
+---allows for the code to run smoothly and not to override other parts of the code. Each thing will be in their own script allowing it to run
+3. Encourages Reusability
+---if you have a model, then it can be imported to other files so it can be used.
+---for example if the function
+4. Supports Lazy Loading
+---you can have the code only be loaded when you want to, so if you don't want it to load then you can prevent it.
+ 
+		   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
