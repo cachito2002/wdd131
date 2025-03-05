@@ -337,6 +337,107 @@ ES MODLES HELP ORGANIZE CODE IN JAVASCRIPT:
 ---for example if the function
 4. Supports Lazy Loading
 ---you can have the code only be loaded when you want to, so if you don't want it to load then you can prevent it.
+
+
+
+FLEXBOX:
+It is a way to shape the containers without an actually dimension being mentioned.
+Things like:
+
+CONTAINER
+Display: flex
+flex-direction: defines the main axis
+justify-content: aligns items along the main axis
+align-items: aligns the items along the cross axis
+flex-wrap: allows items to wrap onto multiple lines if needed
+
+
+ITEMS
+flex-grow: determines how much an item should grow
+flex-shrink: how small an item should get
+flex-basis: sets the default size of an item before if grows or shrinks (default size)
+align-self: this overrides what align-items does
+
+HOW TO DO IT:
+1) Build a container: display: flex
+2) Arrange Items with flex-direction [flex-direction: row], [flex-direction: column]
+3) Control Spacing with justify-content [justify-content: center], [justify-content: space-between]
+4) Align items [align-items]: [align-items:center], [align-items: stretch]
+5) Make items flexible: flex: 1
+
+DIFFERENCE: FLEXBOX AND GRID
+Flexbox is for a single column and not that much room (One-Dimensional) (this is for simple things)
+-when there is only one dimension
+-want flexible content
+-align Dynamically
+-unknown content size
+-NOT USE FLEX = when the design is a full page layout
+
+Grid: it is strict and can add more rows and columns to it (Two Dimensional) (more complex items: image galleries, sections, and other objects)
+
+CHROME LIGHTHOUSE TOOL:
+1) Performance: measures the speed of the website, loading times
+-Minimizes rendering blocks
+-Optimizes images
+-Enable lazy loading
+-Reduce server response time
+-Minify CSS, JavaScript, and HTML
+
+2) Accessibility: checks if the websites follow best practice
+-adds alt text to images
+-ensures color contrast
+-uses semantic HTML
+-Keyboard navigation
+
+3) Best Practices: checks for security issues and outdated tech
+-Makes sure HTTPS is enabled
+-avoid outdates API's
+-Ensures links open in a secure manner
+
+4) SEO: Analyzes whether the page follows search engine guidelines
+-add meta descriptions
+-use structured data for better indexing
+-makes sure pages are mobile-friendly
+-Optimize heading structure
+
+5) Progressive Web App (PWA): Checks if the website meets PWA standards for offline use
+-adds a service worker (for online support)
+-Uses Web App Manifest
+-Ensure fast loading on slow networks
+
+HOW TO APPLY LIGHT HOUSE RESULTS:
+1. Run and see the report
+2. Fix high-priority issues
+3. Retest the site
+4. Continuously Monitor performance for optimization
+
+SOCIAL MEDIA META TAGS:
+1. Tags that control how a webpage is shared on different platforms, social medias like: Facebook, Twitter, Instagram, and many more.
+Example: (OG) improves how a webpage is displayed when shared
+	 twitter uses Twitter Card tags = twitter:card
+- Pinterest uses og:image
+- Youtube & Instagram use og:video
+
+WHY THO?
+- It looks better, more people can click it, it can be shared more frequently because it is attractive. Higher click rates. Looks, performance, popularity, get specific traffic, doesn't pull incorrect links when shared, makes the content look the same throughout all platforms.
+
+WHEN DO I USE A SPECIFIC ONE THO?
+Depends on what you are trying to use it for
+
+-Facebook, LinkedIn, WhatsApp, etc would use OG tags
+-Twitter would use twitter.card
+-Basic SEO meta tag would be like: <link rel="canonical" href="https://example.com">
+
+Other options would be:
+-og:video
+-og:locale
+-pin:media
+
+
+
+
+
+
  
 		   
 
