@@ -6,43 +6,49 @@
     <title>Recipe Book</title>
     <script src="main.js"></script>
     <link rel="stylesheet" href="recipes.css">
+    <meta property="og:title" content="Recipe Book">
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="It is a page with famous recipes">
+    <meta property="og:image" content="images/apple-crisp.jpg">
+    <meta property="og:url" content="URL of the page">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
     <header>
         <section>
-            <form>
                 <div class="search">
                     <img src="images/recipe-book.png" alt="recipe-book-icon">
                     <h1>RECIPE BOOK</h1>
-                    <div class="search-container">
-                        <input type="text" placeholder="Find A Recipe..." img src="images/search.svg" alt="The search button">
-                        <button>
-                            <img class="magnify" src="images/search.svg" alt="The search button">
-                        </button>
-                    </div>
                 </div>
-                </form>
+                <div class="search-container">
+                    <input type="text" placeholder="Find A Recipe..." img src="images/search.svg" alt="The search button">
+                    <button>
+                        <img class="magnify" src="images/search.svg" alt="The search button">
+                    </button>
+                </div>
         </section>
     </header>
     <main>
         <section>
             <div class="recipe">
                 <img src="images/apple-crisp.jpg" alt="picture of food">
-                <button class="label">desert</button>
-                <h2>APPLE CRISP</h2>
-                <p>This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-                
-                <span
-                    class="rating"
-                    role="img"
-                    aria-label="Rating: 4 out of 5 stars"
-                >
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">⭐</span>
-                    <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
+                    <div class="labels">
+                        <button>desert</button>
+                        <h2>APPLE CRISP</h2>
+                        <p>This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
+                        
+                        <span
+                            class="rating"
+                            role="img"
+                            aria-label="Rating: 4 out of 5 stars"
+                        >
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star">⭐</span>
+                            <span aria-hidden="true" class="icon-star-empty">⭐</span>
+                            <span aria-hidden="true" class="icon-star-empty">☆</span>
+                        </span>
+                    </div>   
             </div>
         </section>
     </main>
@@ -52,11 +58,10 @@
             <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
             <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
             <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>
             <div class="copy">
-                &copy; 2021 Recipe Book
                 <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
             </div>
-        </div>
     </footer>
 </body>
 </html>
