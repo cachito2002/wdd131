@@ -436,6 +436,89 @@ Other options would be:
 
 
 
+SEARCH ENGINE OPTIMIZATION
+-to summarize it, its to make a certain page more popular or rank higher in searches. (How many times it is searched) 
+
+
+HOW CAN I APPLY IT TO A WEBPAGE:
+
+ON-PAGE SEO (Content & HTML Optimization)
+Optimizing website content, includes keywords, meta tags, headings and images
+--identify words that are used more commonly
+--add meta tags and description
+--usage of Proper headings
+--Optimize Images
+
+TECHNICAL SEO (Website Performance & Accessibility)
+Improves site speed, friendliness with mobile, and accessibility for search engine crawlers
+--minimize css and js
+--make it friendly for mobile
+--readable URL'S
+--Add Schema Markup: structed data to help search engines
+
+OFF-PAGE SEO (External Factors:
+--have other sites link to my own
+--promote social platforms
+--enable writing on other sites
+
+HOW TO SORT AN ARRAY WITH JAVASCRIPT:
+You would use the .sort()
+
+CODES:
+fruit.sort(); [sorts it alphabetically]
+
+numbers.sort((a, b) => a-b); [this makes sure that the first number comes first
+descending would be ((a, b) => b - a);
+
+projects.sort((a,b) => a.priority - b.priority) this sorts it from lowest to highest
+
+
+
+NOW WE SORTING OBJECTS:
+projects.sort((a,b) => a.priority - b.priority); [ascending order]
+
+projects.sorts((a,b) => a.name.localCompare(b.name));
+---localCompare makes sure its case-insensitive
+
+
+SORTING BY MULTIPLE CRITERIA:
+porjects.sort((a,b) => {
+	if (a.prioritu !== b.priority) {
+		return a.priority - b.priority; *// sorts by priority
+	}
+	return a.name.localeCompare(b.name); *// if its the same priority then it will sort it 						 alphabetically
+	}); 
+
+
+THIS WOULD BE TO FILTER:
+this is how you would do it .filter()
+
+numbers.filter(num => num > 50) this will organize numbers that are higher than 50
+
+names.filter(name => name.starts with ("J"));
+
+project.filter(project => project.priority ==="high"); this puts the ones that have "high" first.
+
+names.filter(name => name.toLowerCase().includes(searchTerm)); this will filter through the names with the "searchTerm" variable.
+
+let searchTerm = "o"
+
+FILTERING AN ARRAY OF OBJECTS:
+projects.filter(project => project.priority >= 2); (takes out things that are less than 2)
+
+projects.filter(project => project.name.includes("App")); (checks to see if "App" is in the name property
+
+projects.filter(project => project.name.toLowerCase().includes(searchTerm.toLowerCase()) (searches for blog with case-insensitive)
+
+projects.filter(project => project.priority >= 2 && project.name.includes("App")
+
+
+
+
+
+
+
+
 
 
  
