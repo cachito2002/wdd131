@@ -86,6 +86,8 @@ li {
     list-style-type: none;
     padding: 5px;
     box-shadow: #333;
+    border: 1px solid black;
+    border-radius: 2px;
     background-color: lightgrey;
     margin: 5px;
     width: 40%;
