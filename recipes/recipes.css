@@ -60,29 +60,40 @@ h1 {
 input {
     width: 100%;
 }
-
-
 /* this CSS is for the main */
 
 .recipe {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid black;
     padding: 20px;
     border-radius: 5px;
 }
 
-.labels {
+ul.tags {
+    padding: 0%;
+}
+
+ul.labels {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding-top: 20px;
+    padding-left: 0;
 }
+li {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    box-shadow: #333;
+    background-color: lightgrey;
+    margin: 5px;
+    width: 40%;
+}
+
 button {
     width: 25%;
 }
-
-
 /* this CSS is for the footer */
 footer {
     display: flex;
@@ -108,7 +119,6 @@ footer img {
   
     .recipe {
         flex-direction: row;
-
     }
     .recipe img {
         width: 50%;
@@ -117,6 +127,12 @@ footer img {
     .labels {
         flex-direction: column;
         padding-left: 20px;
+        width: 50%;
+        
+    }
+    li.tags {
+        flex-direction: row;
+        width: 75px;
     }
     p {
         font-family: var(--primary-font);
