@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+:root {
+  
+  --primary-color: #51291E;
+  --secondary-color: #EDEEC0;
+  --accent1-color: #1C448E;
+  --accent2-color: white;
+
+  
+  --heading-font: "Mulish", sans-serif;
+  --paragraph-font: "Quicksand", "Helvetica", sans-serif;
+
+  
+  --headline-color-on-white: var(--primary-color); 
+  --headline-color-on-color: white; 
+  --paragraph-color-on-white: var(--primary-color); 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: var(--primary-color);
+
+}
+
+body {
+  background-color: var(--secondary-color);
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* header */
+ul {
+  list-style-type: none;
+  background-color: var(--primary-color);
+  text-align: right;
+  padding: 10px;
+  margin: 0;
+  justify-content: space-between;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+  font-family: var(--heading-font);
+}
+a:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: var(--primary-color);
+  padding: 5px;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* main */
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  width: 100%;
+}
+.title {
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 20px;
+}
+.title h1 {
+  padding-top: 60px;
+  font-size: 3em;
+  font-weight: 900;
+}
+.title p {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 10px;
+}
+.home-img {
+  width: 100%;
+  display: flex;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-right: 25%;
+  padding-left: 25%;
+  position: relative;
+}
+.home-img img {
+  width: 100%;
+  border: #51291E 10px solid;
+  display: block;
+  box-sizing: border-box;
+}
+.left, .right {
+  position: absolute;
+  bottom: 45%;
+}
+.left {
+  left: 10%;
+  width: 10%;
+  height: 15%;
+}
+.right {
+  right: 10%;
+  width: 10%;
+  height: 15%;
+}
+.home-info {
+  grid-row: 3 / 4;
+  grid-column: 1 / 4;
+  padding: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: var(--heading-font);
+}
+.home-info h2 {
+  font-size: 2em;
+  font-weight: 900;
+  color: var(--primary-color);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+.home-info p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: var(--heading-font);
+
+}
+.social {
+  display: flex;
+  gap: 10px;
+}
+footer p {
+  margin: 0;
+}
+.social img {
+  width: 25px;
+  padding: 0;
+}
+
+
+@media screen and (min-width: 725px) {
+  ul {
+    padding: 20px;
+  }
+  ul a {
+    font-size: 1.2em;
+  }
+  
+  .home-img img {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+  .title h1 {
+    padding-top: 2vh;
+    font-size: 4em;
+    font-weight: 900;
+    margin: 0;
+  }
+  .title p {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .left, .right {
+    position: absolute;
+    bottom: 45%;
+  }
+  .left {
+    left: 5%;
+  }
+  .right {
+    right: 5%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25% 50% 25%;
+    width: 100%;
+  }
+  .home-img {
+    width: 100%;
+  }
+  .home-info {
+    padding-top: 100px;
+  }
+}
