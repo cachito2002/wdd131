@@ -4,7 +4,7 @@
   --primary-color: #51291E;
   --secondary-color: #EDEEC0;
   --accent1-color: #1C448E;
-  --accent2-color: white;
+  --accent2-color: #EDEEC0;
 
   
   --heading-font: "Mulish", sans-serif;
@@ -62,10 +62,7 @@ a:hover {
   background-color: white;
   color: var(--primary-color);
 }
-footer, a:hover {
-  color: var(--accent2-color);
-  padding: 5px;
-}
+
 li {
   display: inline-block;
   padding: 5px;
@@ -219,20 +216,24 @@ footer {
   align-items: center;
   padding: 20px;
   font-family: var(--heading-font);
+  background-color: var(--secondary-color);
+  
 
 }
 .social {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  padding: 10px 15px 5px 15px;
+  background-color: #EDEEC0;
+  border-radius: 10px;
 }
 footer p {
   margin: 0;
-  color: var(--primary-color)
+  color: var(--primary-color);
 }
 .social img {
   width: 25px;
   padding: 0;
-  color: var(--primary-color)
 }
 
 
