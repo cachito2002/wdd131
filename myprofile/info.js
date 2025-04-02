@@ -1,7 +1,10 @@
+
+
 const info = [
     {
         // each image will have an explanation. This one is for the family
-        image: './images/preparation.jpg',
+        image: './images/momcooking.jpg',
+        name: 'A mom cooking',
         title: 'BECOME THE COOK',
         description: [
             'You will learn how to prepare homemade mexican recipes from other experienced cook; soon to be you.',
@@ -10,7 +13,8 @@ const info = [
         ],   
     },
     {
-        image: './images/mexico.jpg',
+        image: './images/mexico.png',
+        name: 'Mexico Flag',
         title: 'DISCOVER MEXICO',
         description: [
             'Learn how to cook MEXICAN STYLE',
@@ -22,6 +26,7 @@ const info = [
     },
     {
         image: 'images/family.jpg',
+        name: 'Family Cooking Together',
         title: 'LEARN IT FOR THE FAM!!!',
         description: [
             'Cooking is meant to be fun',
@@ -32,13 +37,161 @@ const info = [
         ]
     }
 
+];
 
+const recipe = [
+    {
+        image: './images/food3.jpg',
+        name: 'ENCHILADAS',
+        dificulty: '2/5',
+        description: [
+            'INSTRUCTIONS TO MAKING ENCHILADAS:',
+            'TIME: 60 min',
+            'DIFFICULTY: 2/5',
+            '',
+            'INGREDIENTS: Corn tortillas, chicken, cheese, onion, sour cream, green sauce, lettuce.',
+            'Prep oven and enchilada sauce. Preheat oven to 350°F.  Prepare your enchilada sauce.',
+            '',
+            '1. Prep oven and enchilada sauce. Preheat oven to 350°F.  Prepare your enchilada sauce.',
+            '',
+            '2. Sauté the filling mixture. In large sauté pan, heat oil over medium-high heat. Add onion and sauté for 3 minutes, stirring occasionally.  Add diced chicken and green chiles, and season with a generous pinch of salt and pepper.  Sauté the mixture for 6-8 minutes, stirring occasionally, or until the chicken is cooked through.  Add in the beans and stir until evenly combined.  Remove pan from heat and set aside.',
+            '',
+            '3. Assemble the enchiladas. To assemble the enchiladas, set up an assembly line including: tortillas, enchilada sauce, chicken mixture, and cheese. Lay out a tortilla, and spread two tablespoons of sauce over the surface of the tortilla.  Add a generous spoonful of the chicken mixture in a line down the center of the tortilla, then sprinkle with 1/3 cup cheese. Roll up tortilla and place in a greased 9 x 13-inch baking dish. Assemble the remaining enchiladas.  Then spread any remaining sauce evenly over the top of the enchiladas, followed by any extra cheese.',
+            '',
+            '4. Bake. Bake uncovered for 20 minutes, until the enchiladas are cooked through and the tortillas are slightly crispy on the outside.  Transfer the baking dish to a wire baking rack.',
+            '',
+            '5. Serve. Serve the enchiladas immediately while they’re nice and hot and melty, garnished with lots of fresh toppings. Enjoy!',
+            '',
+            'ENJOY YOUR MEAL!',
+            'Delicious, feels like home; Mexico!',
+        ]
+    },
+    {
+        image: './images/food4.jpeg',
+        name: 'ELOTES CON CHILE',
+        dificulty: '1/5',
+        description: [
+            'INSTRUCTIONS TO MAKING ELOTES CON CHILE:',
+            'TIME: 30 min',
+            'DIFFICULTY: 1/5',
+            '',
+            'INGREDIENTS: Cheese, Mayonnaise, Sour Cream, Cilantro, Chile Powder, Garlic, Corn, Lime.',
+            '',
+            '1. Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and spread coals evenly over half of coal grate. Alternatively, set half the burners of a gas grill to high heat. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Clean and oil grilling grate.',
+            '',
+            '2. While coals heat, combine cheese, mayonnaise, sour cream or crema, cilantro, chile powder, and garlic in a large bowl. Stir until homogeneous and set aside.',
+            '',
+            '3. When grill is hot, place corn directly over hot side of grill and cook, rotating occasionally, until cooked through and charred in spots on all sides, about 8 minutes total. ',
+            '',
+            '4. Transfer corn to bowl with cheese mixture and use a large spoon to evenly coat corn on all sides with mixture. Sprinkle with extra cheese and chile powder and serve immediately with lime wedges.',
+            '',
+            'ENJOY YOUR MEAL!',
+            'Delicious, feels like home; Mexico!',
+        ]
+    },
+    {
+        image: './images/food5.jpeg',
+        name: 'RAJAS CON CREMA',
+        dificulty: '3/5',
+        description: [
+            'INSTRUCTIONS TO MAKING TAMALES:',
+            'TIME: 30 min',
+            'DIFFICULTY: 3/5',
+            '',
+            'INGREDIENTS: Chile Poblano, Onion, Mexican Cream, Garlic, kosher salt, unsalted butter',
+            '',
+            '1. Line a baking sheet with aluminum foil and place poblano peppers on top. Set your oven rack directly underneath the broiler and turn the broiler on high.',
+            '',
+            '2. Broil poblanos in the oven for 5 minutes, or until the skin is blackened and blistered. Carefully flip them over and broil for another 5 minutes, or until the skin is blackened and blistered on all sides.',
+            '',
+            '3. Remove them from the oven, loosely cover the baking sheet with aluminum foil or plastic wrap to keep in some of the heat to help them steam, and let them sit for 5 minutes.',
+            '',
+            '4. Pull and rub off as much of the loose skin on the peppers as possible.',
+            '',
+            '5. Transfer poblanos to a cutting board, discard the stems and seeds. Cut poblanos into strips and set aside.',
+            '',
+            '6. Heat butter in a large skillet over medium-high heat. Add onions and cook for 5 minutes, until softened and translucent.',
+            '',
+            '7. Add garlic and cook for 30 seconds, stirring frequently.',
+            '',
+            '8. Add roasted poblano pepper strips, Mexican crema, and salt. Stir together to combine and cook for 2 more minutes.',
+            '',
+            '9. Add shredded cheese and stir together until the cheese completely melts. Remove from heat and serve immediately in warm tortillas or with tortilla chips.',
+            '',
+            'ENJOY YOUR MEAL!',
+            'Delicious, feels like home; Mexico!',
+        ]
+    },
+    {
+        image: './images/food6.jpeg',
+        name: 'TAMALES',
+        dificulty: '4/5',
+        description: [
+            'INSTRUCTIONS TO MAKING TAMALES:',
+            'TIME: 3-4 hours',
+            'DIFFICULTY: 4/5',
+            '',
+            'INGREDIENTS: Masa Harina, Cups broth, Baking powder, Salt, Lard, Corn husks, Filling of your choice.',
+            '',
+            '1. Soak the corn husks in a bowl of very hot water for 30 minutes or until softened.',
+            '',
+            '2. Prepare desired fillings*.',
+            '',
+            '3. Make the tamal dough: In a large bowl, use an electric mixer to beat the lard and 2 tablespoons of broth until fluffy, about 3-5 minutes. Combine the masa flour, baking powder, salt, and cumin in a separate bowl; stir into the lard mixture and beat well with an electric mixer. ',
+            '',
+            '4. Add the broth, little by little to form a very soft dough. Beat on high speed for several minutes. The dough should spread like creamy peanut butter and be slightly sticky.* Cover the mixing bowl with a damp paper towel, to keep the dough from drying out.',
+            '',
+            '5. Assemble the tamales: Lay a corn husk, glossy side up, on the counter with the wide end at the top. Scoop about ¼ cup of dough onto the top, center of the corn husk. Lay a piece of plastic wrap over the dough and use your hands to press and spread the masa into a thin layer, about ¼ inch thick. Keep the dough spread along the top half of the corn husk to allow plenty of room to fold the bottom husk up, when it’s time. Remove plastic wrap.',
+            '',
+            '6. Place 1-2 tablespoons of desired filling in a line down the center of the dough. (You don’t want too much filling).',
+            '',
+            '7. Fold in one long side of the husk over the filling. Fold in the other long side, overlapping the first (like folding a brochure). Fold the bottom of the husk up.',
+            '',
+            '8. Tying tamales (optional): You don’t have to tie a corn husk string around the tamales--it does take more time and they will hold together without it. However, if you’re making multiple fillings, tying ones of a certain kind can help to identify them.',
+            '',
+            '9. Cook on the stove-top or Instant Pot: Add water to the bottom of your steamer or instant pot. (About 1 cup for IP and a few cups for a steamer pot—don’t fill above the steamer rack.) Lay a few extra corn husks on the bottom rack to keep the tamales from falling through and any boiling water from directly touching them.',
+            '',
+            '10. Place tamales standing upright, with their open end up, just tightly enough to keep them standing. If using a steamer pot, lay a few soaked corn husks or a wet towel over the top of the tamales before closing the lid.',
+            '',
+            '11. Steamer: Bring water to a boil (in Mexico they would often place a coin at the bottom of thesteamer and when the coin started to tap in the pot you know the water was boiling.) Once boiling, reduce to a simmer and steam for 45 minutes to 1 hour, or longer. Check them after 45 minutes.',
+            '',
+            '12. To test if the tamales are done: Remove one and try to pull the husk off. If the husk pulls away cleanly from the tamale they’re done. If the dough is still sticky or wet looking, cook them for 5-10 minutes longer and try again.',
+            '',
+            '13. Store leftover tamales in the refrigerator for 5-7 days depending on the freshness of your ingredients.',
+            '',
+            'ENJOY YOUR MEAL!',
+            'Delicious, feels like home; Mexico!',
+        ]
+    },
+    {
+        image: './images/food7.jpeg',
+        name: 'GORDITAS',
+        dificulty: '2/5',
+        description: [
+            'INSTRUCTIONS TO MAKING QUESADILLAS:',
+            'TIME: 20 min',
+            'DIFFICULTY: 2/5',
+            '',
+            'INGREDIENTS: Masa Harina, Water, Salt',
+            '',
+            '1. Mix together masa harina, water and salt to create a dough. Roll the dough into 16 little balls. Heat a large skillet, griddle or comal over medium-high heat.',
+            '',
+            '2. Lightly flatten a masa ball in between two sheets of plastic wrap using a tortilla press or a flat plan. Make sure not to press it down too much as it will become too thin like a normal corn tortilla. You want it about twice as thick as a normal tortilla.',
+            '',
+            '3. Remove the flattened masa from the plastic wrap and place it on the hot griddle. Let it cook for about 10 to 15 seconds, flip it over and let that side cook for another 10 to 15 seconds. ',
+            '',
+            '4. Flip it over one more time and cook each side for about 1 minute, until it has beautiful brown spots.',
+            '',
+            '5. At this point, you should notice that the gordita inflates a little bit and starts to bubble up in the middle or the sides. This is exactly what you want. Lightly press down on the sides of the gordita with a spatula or other utensil to help it inflate even more. Remove it from the griddle, place it on a plate and cover it with a light kitchen towel.',
+            '',
+            '6. As soon as you can handle and hold the gordita (it should still be hot but not hot enough to burn you), use a butter or paring knife to cut a slit down the edge of one side. The gordita should open up and create a pocket.',
+            '',
+            '7. Fill gordita with desired fillings and enjoy!',
+            '',
+            'ENJOY YOUR MEAL!',
+            'Delicious, feels like home; Mexico!',
+        ]
 
-
-
-
-
-
-
-
+    }
+    
 ]
