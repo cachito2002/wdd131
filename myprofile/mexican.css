@@ -10,16 +10,6 @@
   --heading-font: "Mulish", sans-serif;
   --paragraph-font: "Quicksand", "Helvetica", sans-serif;
 
-  
-  --headline-color-on-white: var(--primary-color); 
-  --headline-color-on-color: white; 
-  --paragraph-color-on-white: var(--primary-color); 
-  --paragraph-color-on-color: white; 
-  --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--primary-color);
-  --nav-background-color: var(--secondary-color);
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: var(--primary-color);
 
 }
 
@@ -50,7 +40,7 @@ ul {
   width: 100%;
 }
 .instructions {
-  background-color: none;
+  background-color: transparent;
 }
 ul a {
   color: var(--accent2-color);
@@ -67,14 +57,6 @@ li {
   display: inline-block;
   padding: 5px;
 }
-.hero {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  font-family: var(--heading-font);
-}
 .theme-container {
   display: flex;
   justify-content: right;
@@ -84,13 +66,21 @@ li {
 }
 #theme-selector {
   display: flex;
- background-color: #51291E;
+  background-color: #51291E;
   color: white;
   border: none;
   padding: 5px 10px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 0px;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-family: var(--heading-font);
 }
 
 /* main */
@@ -160,7 +150,7 @@ main {
   width: 10%;
   height: 15%;
 }
-.home-info {
+.home-info, .home-info2 {
   grid-row: 3 / 4;
   grid-column: 1 / 4;
   padding: 20px;
@@ -177,7 +167,7 @@ main {
   text-align: center;
   font-family: var(--heading-font);
 }
-.home-info h2 {
+.home-info h2, .home-info2 h2 {
   font-size: 2em;
   font-weight: 900;
   color: var(--primary-color);
@@ -186,22 +176,14 @@ main {
  
 }
 .home-info2 h2 {
-  text-align: center;
   margin: auto;
-  padding-bottom: 10px;
-  text-decoration: underline;
-  text-underline-offset: .2em;
-  font-size: 2em;
-  font-weight: 900;
   padding-bottom: 20px;
-  color: var(--primary-color);
 }
 .home-info p {
   padding-top: 20px;
   font-size: 1.5em;
   font-weight: 400;
   color: var(--primary-color);
-  text-align: center;
 }
 .home-info2 p{
   text-align: left;
@@ -245,12 +227,7 @@ footer p {
   ul a {
     font-size: 1.2em;
   }
-  
-  .home-img img {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-  }
+
   .title h1 {
     padding-top: 2vh;
     font-size: 4em;
@@ -263,10 +240,6 @@ footer p {
     padding-bottom: 20px;
     margin: 0;
     padding-bottom: 20px;
-  }
-  .left, .right {
-    position: absolute;
-    bottom: 45%;
   }
   .left {
     left: 5%;
@@ -283,13 +256,6 @@ footer p {
   .title h1 {
     padding-top: 5vh;
     font-size: 5em;
-    font-weight: 900;
-    margin: 0;
-  }
-  .home-img img {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
   }
   .home-info {
     padding-top: 100px;
